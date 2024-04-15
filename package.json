@@ -3,8 +3,8 @@
   "description": "Playwright Service get started sample",
   "version": "1.0.0",
   "scripts": {
-    "test": "npx playwright test example.spec.ts --config playwright.service.config.ts --workers=20  --reporter list",
-    "test-local": "npx playwright test example.spec.ts --reporter list"
+    "test": "npx playwright test --config playwright.service.config.ts --workers=20  --reporter list",
+    "test-local": "npx playwright test --reporter list"
   },
   "keywords": [],
   "author": "",
