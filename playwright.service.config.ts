@@ -39,6 +39,7 @@ export default defineConfig(config, {
   ignoreSnapshots: false,
   snapshotPathTemplate: `{testDir}/__screenshots__/{testFilePath}/${os}/{arg}{ext}`,
   
+  
   use: {
     // Specify the service endpoint.
     connectOptions: {
